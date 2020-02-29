@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Monitory</string>
+    <string name="personal_data">k;</string>
+    <string name="sett_reminder_header">Set Reminder</string>
+    <string name="sett_reminder_label">Remind Me</string>
+    <string name="sett_reminder_desc">We will remind you to make entiries of your expense</string>
+    <string name="sett_reminder_time_label">Set Reminder Time</string>
+    <string name="sett_reminder_time_content">8 : 00 PM</string>
+
+    <string-array name="list">
+        <item>1-January</item>
+        <item>2-February</item>
+        <item>3-March</item>
+        <item>4-April</item>
+        <item>5-May</item>
+        <item>6-June</item>
+        <item>7-July</item>
+        <item>8-August</item>
+        <item>9-September</item>
+        <item>10-October</item>
+        <item>11-November</item>
+        <item>12-December</item>
+
+
+    </string-array>
+</resources>

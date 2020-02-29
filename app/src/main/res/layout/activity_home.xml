@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Home"
+    android:background="@drawable/goodback"
+
+    >
+
+    <ImageView
+
+        android:id="@+id/bgapp"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+
+        android:scaleType="fitXY"
+        android:src="@drawable/mask3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/menus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".497"
+        app:layout_constraintVertical_bias=".409"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/submenus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="vertical"
+            android:background="@drawable/linerlayout">
+        <ImageView
+            android:id="@+id/dollar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/business"
+            android:background="@drawable/icon"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/icons"
+            android:text="banknote"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+
+            android:textColorLink="#00FCF8F8"
+
+            android:textStyle="italic"
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/submenus2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+
+
+            android:orientation="vertical"
+            android:background="@drawable/linerlayout">
+            <ImageView
+                android:id="@+id/work"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/businessman"
+                android:background="@drawable/icon" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/icons"
+                android:text="go to work"
+                android:gravity="center"
+                android:textSize="20dp"
+
+                android:textAllCaps="false"
+
+                android:textColorLink="#00FCF8F8"
+
+                android:textStyle="italic"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".01"
+        >
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/icons"
+            android:text="welcome!"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:textAllCaps="false"
+            android:textColorLink="#00FCF8F8"
+
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/icons"
+            android:text="Nice to see you agin!"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+
+            android:textColorLink="#00FCF8F8"
+
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/icons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.656"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".599" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
